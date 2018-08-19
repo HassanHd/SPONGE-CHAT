@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/spongw"
+    tools:context=".activity.SignupActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_marginTop="30dp"
+
+            android:id="@+id/email_Signup_ETL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:padding="12dp"
+            android:textColor="@color/black"
+            android:background="@drawable/chat_area_shape"
+            android:textColorHint="@color/brone"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawablePadding="8dp" />
+
+        <EditText
+            android:id="@+id/pass_Signup_ETL"
+            android:layout_marginTop="8dp"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:background="@drawable/chat_area_shape"
+            android:textColorHint="@color/brone"
+            android:drawableStart="@drawable/ic_lock_open_black_24dp"
+            android:drawablePadding="8dp"
+            />
+
+
+
+        <Button
+
+            android:id="@+id/sign_Btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:textSize="15sp"
+            android:text="sign up"
+            android:background="@drawable/chat_area_hape_b"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>

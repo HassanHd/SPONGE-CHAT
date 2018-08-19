@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "821270331587",
+    "firebase_url": "https://mochat-57094.firebaseio.com",
+    "project_id": "mochat-57094",
+    "storage_bucket": "mochat-57094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821270331587:android:45b525f581da8e13",
+        "android_client_info": {
+          "package_name": "com.example.daboos.mochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821270331587-vmap7s88t21mhmmbmsm1i41hno151ldm.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "821270331587-vmap7s88t21mhmmbmsm1i41hno151ldm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAijrqV4THpimWyZV6HC6IxrgXqd-5W82M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
